@@ -1,8 +1,9 @@
 // vite.config.js
-const { resolve } = require('path');
-const { defineConfig } = require('vite');
 
-module.exports = defineConfig({
+import { resolve } from 'path';
+import { defineConfig } from 'vite';
+
+export default defineConfig({
   build: {
     rollupOptions: {
       input: {
